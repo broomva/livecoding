@@ -1,0 +1,13 @@
+# Files that should NOT be part of the installed skill payload.
+# The CLI clones the repo and installs everything not matched here.
+
+.git/
+.gitignore
+.skillsignore
+node_modules/
+__pycache__/
+.DS_Store
+._*
+
+# CI configs are repo-level, not skill-level
+.github/
