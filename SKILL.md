@@ -12,7 +12,7 @@ trigger_keywords:
   - make music, write a pattern, generate a tidal pattern
   - boot tidal, start tidal, livecoding session
   - generate visuals, tunnel visuals, kaleidoscope
-  - "@_switch_angel", "@_polymatters", "@lo.fi.sci.fi"
+  - switch_angel, polymatters, lo.fi.sci.fi
 when_to_use: Any time the user wants to write code that emits music in real time, generate or mutate Tidal patterns, or set up Hydra visuals for a livecoding session. Also invoked when the user references algorave artists and asks to recreate the style. Default first action — walk Workflows/Boot.md prereq check before generating any patterns; the agent never dumps a pattern into the chat when the user's stack might not be running yet.
 ---
 
