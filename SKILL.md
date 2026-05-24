@@ -1,15 +1,7 @@
 ---
 name: livecoding
 version: 0.1.0
-description: |
-  Algorave-grade livecoded music workflow — TidalCycles for patterns (Haskell DSL
-  driving SuperDirt over OSC) + Hydra-synth for visuals (browser or VS Code
-  Simple Browser via a local HTML page that loads hydra-synth from CDN). Wraps
-  the boot ritual (SuperCollider → SuperDirt → Tidal → Hydra), a starter-pattern
-  generator that mutates by vibe descriptor (industrial, ambient, DnB, footwork,
-  techno, algorave-glitch), and a reference tunnel-visuals page for the
-  @lo.fi.sci.fi-projected aesthetic. Mac-first; ports to Linux with package-name
-  swaps.
+description: Algorave-grade livecoded music workflow — TidalCycles patterns (Haskell DSL driving SuperDirt over OSC) + Hydra-synth visuals (browser or VS Code Simple Browser via a local HTML page that loads hydra-synth from CDN). Wraps the boot ritual (SuperCollider → SuperDirt → Tidal → Hydra), a vibe-descriptor pattern generator (industrial, ambient, DnB, footwork, techno, algorave-glitch), and a reference tunnel-visuals page for the @lo.fi.sci.fi-projected aesthetic. Mac-first; ports to Linux with package-name swaps.
 author: broomva
 license: MIT
 tags: [livecoding, tidalcycles, supercollider, superdirt, hydra, algorave, music, visuals, code-as-music]
@@ -21,13 +13,7 @@ trigger_keywords:
   - boot tidal, start tidal, livecoding session
   - generate visuals, tunnel visuals, kaleidoscope
   - "@_switch_angel", "@_polymatters", "@lo.fi.sci.fi"
-when_to_use: |
-  Any time the user wants to write code that emits music in real time, generate
-  or mutate Tidal patterns, or set up Hydra visuals for a livecoding session.
-  Also invoked when the user references algorave artists and asks to recreate
-  or learn that style. Default first action: walk the prereq check from
-  Workflows/Boot.md before generating any patterns — the agent never dumps a
-  pattern into the chat when the user's stack might not be running yet.
+when_to_use: Any time the user wants to write code that emits music in real time, generate or mutate Tidal patterns, or set up Hydra visuals for a livecoding session. Also invoked when the user references algorave artists and asks to recreate the style. Default first action — walk Workflows/Boot.md prereq check before generating any patterns; the agent never dumps a pattern into the chat when the user's stack might not be running yet.
 ---
 
 # Livecoding — TidalCycles + Hydra workflow
